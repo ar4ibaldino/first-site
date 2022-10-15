@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first site</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <div id="logo" onclick="slowScroll('#top')">
+        <span>ITSMEAR4I</span>
+    </div>
+    <div id="about">
+        <a href="" title="Возможнсти" onclick="slowScroll('#main')">Возможности</a>
+        <a href="" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+        <a href="" title="Преимущества" onclick="slowScroll('#overiew')">Преимущества</a>
+        <a href="" title="Ответы на вопросы" onclick="slowScroll('#fag')">FAQ</a>
+    </div>
+</header>
+<div id="top">
+    <h1>Программирование</h1>
+    <h3>как смысл жизни</h3>
+</div>
+<div id="main">
+    <div class="intro">
+        <h2>Наши услуги помогут Вам!</h2>
+        <span>Большой выбор всего , что может вам пригодиться</span>
+    </div>
+
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque maxime nobis numquam vitae! Autem consequatur deserunt, dolor expedita fuga iusto quaerat repellat! Adipisci aperiam minus provident quia, repellat sed unde!</span>
+    </div>
+</div>
+
+<div id="overiew">
+    <h2>Преимущества</h2>
+    <h4>С нами все проще</h4>
+    <div class="img">
+        <img src="https://freesoft.ru/storage/images/news/re/rEVrGxVOFBoSZq8-340.jpg" alt="">
+        <span>Уроки фотошопа</span>
+    </div>
+    <div class="img">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRUYGBgaGhgYGRgYGBgYGBkYGBgaGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EAEMQAAIBAgMFAgwEBAUDBQAAAAECAAMRBCExBRJBUWFxgQYTIjJCUpGhsbLR8GJyweEHIzOCFCRzovE0ksIVFkNTY//EABkBAAIDAQAAAAAAAAAAAAAAAAIDAAEEBf/EACgRAAMBAAICAQQBBAMAAAAAAAABAhEDIRIxBBMiQVFhMnGh0YGRwf/aAAwDAQACEQMRAD8A8bhCEIII4CJHCQtIIARbRwkwPAAigQjgsPAkhLRCJIFgVl4F4kdokfuxCsrAWhkItoWlFYIItoWimQvBpiGOMSUUxpiRxEbIAwiQhKKYkIQkKCEISECEISECEISEFhCEosBHiNAjry0WhYoiRwhINDgI9REWSKsNIbM6AWKEkyoeUkCdPv2QlI1RpVKRCk0Ew18/3jmoEcO+F4MP6LwyzTjCs0WoytUp2gucF1x4VYhj2jItiGJCO3YhWVhWMaY0x8aZTBY2JFiSgBIQhIUEIQkIEIQkIEIQkILAQtFAkLQCPAiAR1paQSQARwiASVVhpDJQ+ml5OqWyjKVP74y/QpEEfT4xsyauOGww9Drn6ud+kuUcKToOfA68hL2AwBtvu24nrHUn8I1Yy621txdygu6PXaxc87cFjkkkbo40kJQ2KApZz4tbCxcgXb8mpEawwqgBmerbgoCL7dTKFR2c7zkseZNz7TGFZToY89GlTxVAgquGpgc2JZrdpzBnP7cwYp1XRdFY7vPd1HuImnRGvZE8Kqf81z1HyiBT+0Dl45cakclUEkwtEuwUZliAOpJsIytrL+wR/Ppf6lP5hEyuzlKdvDrsb4JYSju061arTqFQd8qr0m6jdzAvwJmZivA2sF3qLJXT1qbAtbqhz7hedN/Ev+rS/IfmnG0MQ6NvIzK3NSQf3mhxJu+lLSeGNiMIykgggjIgixB5EHSVGS07v/1tKwCYumKg0FRQFqL3jX7yMztp+Dvkmph3FWnxIHlp+denMewRVcZn5Pj/AJk5O0bJqi2kJiGsMVLBIQhKACEISiCQhCWULCEJRYoEeBEAjlEJINIAI5YSRUhpBqRUWWqNK8SjTE0cPQOmfYI6JNfFxaLQw/E27O7nNPDUgvlMLkcNAPzfSTUMH6RysLljnujgbeseAkFd75KLKNOZ6nmY7MOjHGpXYmJxDOcyT8LcgOAjFWOVI60FvS32MjWMs4bBvUJCKTbU6ADmWOQkz0cPT89zUb1aeSDtdte4QCmv2Zwq2vE8JsR/OcdR8oklbbQT+lRpp1ZfGOOu89x7pgYzEs7MzG7MSSTxJlVSzDPzc2TiKdU5y/sA/wCYpf6lP51mYxmlsL+vS/1E+cRU+znQ9tHof8Sv6tL8jfNOKYTtv4k/1aX5G+acUPKbdGpympnUX9KIzJsJi3ptvIxU9OPaOMMThXRt11KnkwsZXIgvUU00aOMwtPFDeQKlfimQSofw+q55aHoczy1aiVJDAgg2IIsQRqCOBmqz2F5Jt43Wman9Yrdjx3PQ3+bWvnra175RNpe0Y/kRLXkvZz5iRTEiTAESLACUQSEURQJCsGxY60JMLwcoj7RqiTLGSNlaIqyzSpXtG01zmlQpA6cBmevGNmdNXFx6LhqPdOg2PssuRbt0tbtlbZ1IA3tfKw0156TqsQf8PQAHnvl2Dj7AfaY+Us7Onx8alJmJtSou9uJ5i6n1n4sfgJQ3ZNaG7I+xr7IQk08Ls5VXxtYkL6Kjzn7OQ6y5gcCqL46qLj0V5n6TB2ztRmYknP3AcABwEVTzpFPEtYu1tsFhurZEGiLkvafWPUzna2KJ4yHE4kkymXinZzeb5GvETPVkDtDOOCdIPbMdN0RhZpbEFq9L/UT5hKi05obIT+fSy9NPmEKZGccNNM7z+Jh8ukfwH5hOS2bjxRQHxVNyzNvGopYlQF8lc/J845jPrOt/iZ59L8jfETh8TTtQot6zVf8AbuCN5PaNjeJP+P8A09AwmLw+Npbr38kecTetQ6lv/kp8N7UZbw9KcjtvZD4d918wc1Yeay8x9JlYDGtTdXRirKbhhqPr2cZ3hx1PGYNlsoZRcIWVfFP6yFj/AEmzy9HMZi1rVasYU0mji8FTUlqji9OlYkabzHzUHafYATwmNj8S1RmZjdmNz9ByA0Amrt3FoAtCib06erf/AGVD51Q9OA6DqZz7G8z0zn89/hDYRwWKBF4Zkhto60ULHBYSQSkjtFAj92JaTCeI20I68JCYOWTKsiRZYpjlGShsIno66TWwoPYDlYcf2mfh1/ebODo3tbpkP1miEdH48HR+D+DVmW+dszysP3kO38Tv1WzyXyR3a++81tjp4ujUqHW1h/aL29pE5lznGM3fn/AyauxcF4x8/NGZmYonQUm8VhidGckDsGv074LeLS0Zu39o3bLzV8kDpz79ZxWOxFzNTatfWc5Xe5mWmYvmcuLxRGxuZKtCJSpzoNi7JNU53Cg2JAuT0UcT8JcRpi4eF2zNwmAZ2CorOx0VVLE9gE6LD+BGKIuyKg/G6qfZcma1XaniFNLDKKS6My2LsfxP9JhYiqzm7szH8RLfGP8AptG5fH8f0WK/gbiVFwqOPwup+NpnYXDMlamGUqd9NRb0hpzjgxU3UlTzUkH3S5S2zVFt4h7EEF1VmBGhBOcrwCU4b38Sm8uj+RviJx20h/lMN21/mSWNpY96z7zkk2sL8BK+0P8ApMN21/mSDyexPKsTX8GCrkGS/wCIyld40CI8mjnK6npCs14gEkWnLuEwLOwVVJJ4fEnkOsilsk8dUymlKXGwDLbfVlvmN5StxzF9Z02zGoYYht0Vavregh/BceUfxeznLmOxJxAfeGqo63N7FMmA6EM3sEbPF+zbx/E1azizh4xqdpt1MLxz9koVU1z7pbjCr4PEzmWMsRLFRbZSFhFNGWpwZuwi3hKBxD0limmV5WSXKK34QoG8a0vYVRkTbryPKdNgFAt5PC5twubC/aZgYZBawGQtN/AUyLAjXPuM1T0jr/HnDocaSuFAOrHPvYn4Ccw86XbgtQpDs+X95zbS36Grtb/cSmM5reEDbionqoPacz+kzsKt3Uc2A9pkvhZW/muL6WHsUCBfom5/k43aFW5MzFzMt405ypT1mV+zi81eVmlgKDOyqouzEKBzLGw+M9K2xTXCUFoU/PZfKbjY+cf7jfuE5f8Ah9hg+Lp39EM3eFNveRNnwqrFsQ/4SFHYo+t5r4l+Td8ee0v40wXkLSdxIXjGaqImEjYSUxjwGKZC0fjh/lMP21/mSMaS4z/pKHbW+KRVCLW7/b/RzbiIgj6msWkIjOzmZ9xobMwhqOiDV2VQeW8bXM6jG0KeHphQSzOAwAy3lOjVDy5KMud9ZibCNq1NuTp84m/4U0/IoHkHT/tYAD3R09I6XDOTpz++WNzNvZDXdBz3kPYwt+sw0mvss5oeVRIUvsfwt+Q7HgnPnfQ+2/WYOIa7MbDO/ZOnx9PzrAZFlzudeI6i05zHJY5eyMvcK+RP5M6pKxkr6yIzLTOXb0SELwlCx6CXaA4Skmsu0TnlDkfxG3RCkcswb+4277zbwlQADn2eyYWAIXqdbdtxf3zSoPxyy0H33zUvR1+F/k6fbedCmez3rObYTo8Qd/CKRnYD3Nac9LzoZK6/5HYU2dPzL8RIvCz+tU7VPtRTHaEHkQfZLPhbRu6ONHRe8i4Pu3YuloHJ/s4DFiVkOc1MdRAJ4+6ZZFjM1LGcbmlzencfw5rhcYgPpK69+7f/AMZpeE9IriKl+J3h2MAfvsnFbJxjU3SouqMrD+03t+k9Q8I8OuIopi6WY3Re2u716qbgzTxP8G/49rV/Kw4ppA0sOJC4jGa6RCTI2MlYSFoDE0Q1TYE9JY2l5OHw6nXdqP3O9h8hkNOgarrTXUnM8FAzZieAABMbtvFK7nd8xQEQfgQbqnoTa56kxNPszXXtmLUMdSkZN5Yw6kkBb34W1v05xS7Zz57o2th071aY0u6W/wC8Td8KX8ih18Y3czgj4zH8HEtWDWuKYdz2op3e/e3R3y/4UtaolO/9Omi9+p/SOX9LOnD+wx1mxsxfMHOov375jrN3ZK+XT7S/cuf6S59jeD2SbTqXJtpc+/hObxZzvOg2gRz+/wDmc7i2h36J8kz6h4yMiSsekhY5zMzlWNhHd0JWAYKhlukc/hKSGW6T2hSxvGzUpubAi2Q9o4y3TcjnbXl3TLVrC3b75bw+JIzIB9Gx0toY9M38dnb7Bffw7oCb5kX5OMveJiBs5Z8HcSEdSQVDncve655oPaPfDbWH3Kp5N5Q79ffHfg1xXbRDNXG0PG4VSPOpm/Xd0P6HumMjzb2DiQGKNo2Vj8ILWrA7Wro4vG0NfvhMPEUiOE7jbuzjTcr6Ponmp07xxnMYuh3xFz1pg+RxKlqMui9p2vgf4U/4c+LqeVRY5jUoTkWUcRzH2eJqpYwp1SIuawxxyeP2v0eq7S2ClQeNwrKytnubw/23+BnMYnDMpsysp6giYmB2q6eaxHMag9oPxmmfCBmFm3j2OwHsbemhcia7Ojx8052xjysAzndRST7h1J4DrH1NoIfQJP4nJHsUCVcRtBiN0WVfVUbo7+Ld94NVvoDk5J/ZZqVlpIURrs2VRxpb1E/DzPG3LXDr1bx1WrKxziG86Rz+bl37UKqy5STjn0OmnEGQ00mpgMEajqq5XNrnzVAzZjyAGckonFB0fgthbKXf0jryp0iHc977i9zTEx+J8ZUdz6TE9g4D2Wm/tfELToCmlwXUKoOq0V0vyLksx/MeU5kCNfSw3NYsH0xczptn0/KbgEphL/ibX3b/ALJg4NBe50GZ7puI25TUHV7u3f5o9lz/AHQoH8KxaUcW+cw8Vz9nZNHFVcyfv2zFrNeXbEfIorsxkRjmkbNM2nNpjrwke/CV5AeSHAyZGlYGSqZEy5ourU0limctZRotz6yek8bLNUWaFOsQRYkGwIPW979s7nHMMThlqrm66gcx54/WefU3GX3edH4MbS8VU3W8xrBr+ict1vfn+0dNdmvjv9Ea1JZpVbWIku3dneLcso8hjl0J9H6TNpvGabJo6+64qluMQHXNSef0M47aWFZGKupBGv7dDL1DElTdTnNStiaeJQJUO44819bdGHEQWt7QFzvr/o4HFUfv77ZQZJ1G1NmPSPlrr5rA7yN1DcezWYz0La6ad8Rcb6Ody8WvUZmcXxhk70/syLxfKKxoyOaXoQVIF+UDTkgpm2mRsb9nIydkXkyNULXOWQvmbdw5mOp04/xc0sBs96jbqKWOp0CqObNoo6mWpDjj19lehRuQoBJJsABck8gJ1OHopQVlY3I/rMDfqMOh4523j0twkVPcw4K02u5FmqjKw4pSGv8Afry5zLxFUtYAWUeavxJ5mNlZ2zfEKVrExuJaq5dtTw4AcAOkYqxJJSF8zpy5mV7ZaWs0MBRBIU5DznPJR927SI7G4veJIyv7LcAOgEa9TcXc9LJqh68E7tT1PSZlWrfX691oxdDKtSsQzEv9/SZ1TUydnlep1/5iremHkry7IWMiY3kjESAmKb/Bjti7sIl4QehYXiqZHePUytJL7JlaWEa/33ykpk6v17YyWOmy4j3F/vlLFOpbLU/8fSZ6PnY6SUHjzyvGqjRFndeD+1kqp/hqxvcWQniOCE8xwMqbT2c1FraqfNbn0PWc1Te2fdftF79t52mzduU6qrRr5kqBvnn1PPrGzW+zbxchjo8HaaG0tkPT8oeUnBh+v1mdLfRp39FnDbWdAUYB0OqMAwPcY98Jhqt9wmmxzsQXS/RfOXuvM90kDJKb0XS32Wa3g9V9Dcf8jrfpdWs3uma2xsQpINCpy8x7d2WcuLinAsGNuR8oexryZNrVBoR7LfKRAciK402ZSbGrk2GHqnsR/pLn/t6r5O8q0x/+jon+2+8T3Sd9sVTqQe0E/MTKz42ofSt+Wy/KBBU4L+kkW6eycPSzquXOu4LontI3z3KO2GJ2rcbqKEQG4VRurfmRnc9WJPZMsi+pzj1TP6S0sDmVPpDmcsbk3iNlFbKN3fvnJ7C7GAX7JcWoKYDNfePmr6oPpnry9ugzjYhPOALcE4Dq/wBPblrRqVzcsbsTrfnJqQNX4+hzvxP798gaqM4x3PH3ZSJmtBdGe7Hn76dBImMXeuJGzADWCIqkNYyIiDPEDRVPRFUmJCLeEEEjjhGCLIAmSAxQY0QvCTDTJwZMhNrfecqrJEcw1Q2aLarbvP7yyj+36yitTQEkDOSpUHfwjFRoi0vR1WxtuPSXdY76eq2dh0M03o4et5VNhTY+i3mE9vozi6dX3S9hMSQbrwOnDqI6aN3Fyr0auJwbp56kDmM1PYRlKrLLy7QAJ3HKqcwOHC4INxz4RHdW1VL9PIPu8mW0jTiZnFI1qcutQ5K3dZvhInpnke8GVgDkqtS5Rhpy0UPI+yKuHc+ie/KVgPiUwkcRaWjQ5sB2Zn775E5RdBc82+n/ADKaZWJEIpk56D1myEY+IVPMN29Y8Pyjh269kgxGILa8OF7jsA0EpvW+OgFoLpIzXyZ6JGqsSSSCeshaoOX6xrVB1kRaBTMtWPLffGRu0QvnGMYDYqqAmREx7SIxdMVTCJCBMoWLvQjYSE1hCEJChwMURgMW8mlpj7xVMZeBk0LSbej1aVxHhrQ0wlRbWqdJZp4iZwaSK0ZN4aI5GjWSocucu4etrn7Zi06umd7Sdaljf9Yc2bI5jfesRxBvyNwMr6wNYixOQtcG/CY64rL7y7oq4gi9j+hvGeaNH10azYs6k/rlK9TEcfdlaZvjesY9XLiO/WV5gVzdF18T9/rKT1TqfbIi5t++khepyygVbM98ujy/E3PdlId4RpeRl4p0ZaseWjGOcYTEvBdC3QpaITGXgYLoDyAxsdEBlAMDaNixJAWEIQkIEIQkIEIQkILCEJRYoMWNheWTRwMeGkd4b0mhKsJ1eSrVlS8UGEqDVtF4P98ooq9TKYeOLw/IauQstW4CNFXnK29EvK8inysmLxC0iYxt5ToW7JGeMLRt4sFsrybAmIYGJe0oFsUCBMaTEkB0UmEISiCQhCWUEIQkIEIQkIEIQkIEIQkIEIQkIEIQkIOiiEJAkKIsIS0EEIQlkEMSEILKEiiEJCIRo2LCQF+xIQhIUEIQkIEIQkIEIQkIf//Z"
+             alt="">
+        <span>Уроки музыки</span>
+    </div>
+    <div class="img">
+        <img src="https://www.ferra.ru/thumb/570x0/filters:quality(75)/imgs/2018/11/26/16/2586671/44e77f06a28085e2c2a00094eb734ee26ff45a54.jpg"
+             alt="">
+        <span>Уроки математики</span>
+    </div>
+    <div class="img">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/1305431056808653122/235C4D7323985B03C88A0260576915454F9BD508/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+             alt="">
+        <span>Уроки CS:GO</span>
+    </div>
+</div>
+<div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+        <label for="name">Имя<span>*</span></label> <br>
+        <input type="text" placeholder="Введите имя" name="name" id="name"> <br>
+        <label for="email">Ваша почта <span>*</span></label> <br>
+        <input type="email" placeholder="Введите email" name="email" id="email"> <br>
+        <label for="message">Сообщение <span>*</span></label> <br>
+        <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea> <br>
+        <div id="mess_send" class="btn">Отправить</div>
+
+    </form>
+</div>
+
+<div id="faq">
+    <div>
+        <span class="title">Гарантии</span> <br>
+        <span class="heading">Какие гарантии есть </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">Какие гарантии есть </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">Какие гарантии есть </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+    </div>
+    <div>
+        <span class="title">Оплата</span> <br>
+        <span class="heading">Как оплатить</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">Сколько стоит </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">Какие банкосвкие карты </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+
+    </div>
+    <div>
+        <span class="title">Курс</span> <br>
+        <span class="heading">Какие курсы</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">Сколько стоит курс </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+        <span class="heading">какой курс  </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus earum eos explicabo in libero minima
+            nostrum odit placeat qui, repellat, repellendus, repudiandae similique? Aliquid fugit in maiores nobis
+            qui?</p>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    function slowScroll(id) {
+        $("html", "body").animate({
+            scrollTop: $(id).offset().top
+        }, 500);
+    }
+
+    $(document).on("scroll", function () {
+        if ($(window).scrollTop() === 0)
+            $("header").removeClass("fixed");
+        else
+            $("header").attr("class", "fixed");
+    });
+
+
+</script>
+</body>
+</html>
